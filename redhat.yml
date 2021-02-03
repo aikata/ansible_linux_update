@@ -1,0 +1,7 @@
+---
+- name: update redhat packages
+  yum:
+    name: '*'
+    state: latest
+    update_cache: yes
+    autoremove: yes

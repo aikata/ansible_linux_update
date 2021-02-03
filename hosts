@@ -1,0 +1,30 @@
+
+all:
+  hosts:
+    ansiblehost:
+      ansible_host: 192.168.1.110
+    webserver01:
+      ansible_host: 192.168.1.111
+    webserver02:
+      ansible_host: 192.168.1.112
+    webserver03:
+      ansible_host: 192.168.1.113
+      ansible_python_interpreter: auto_silent
+    webserver04:
+      ansible_host: 192.168.1.114
+      ansible_python_interpreter: auto_silent
+    dockerhost01:
+      ansible_host: 192.168.1.105
+      ansible_python_interpreter: auto_silent
+    dockerhost02:
+      ansible_host: 192.168.1.106
+      ansible_python_interpreter: auto_silent
+    dockerhost03:
+      ansible_host: 192.168.1.107
+      ansible_python_interpreter: auto_silent
+    dockerhost04:
+      ansible_host: 192.168.1.108
+      ansible_python_interpreter: auto_silent
+    dockerhost05:
+      ansible_host: 192.168.1.109
+      ansible_python_interpreter: auto_silent

@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: update all installed packages from repos
+      include_task: {{ ansible_os_family | lower }}.yml
